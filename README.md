@@ -1,5 +1,6 @@
 ## How to run the code
 npm install
+
 npm run dev
 
 ## How the optimal clinician is picked
@@ -7,8 +8,10 @@ nearestLab(patient) => Finds the closest lab dropoff to the patient by comparing
 
 findOptimalClinician(patientAddress, includeLabDropoff) => Convert the patient address into coordinates via geocodePatientAddress
 
-For each clinician:
-    compute distanceToPatient
+### For each clinician:
+
+compute distanceToPatient
+
     if includeLabDropoff is true:
         total distance = clinician -> patient + patient -> nearest lab + nearest lab -> clinician
     else:
