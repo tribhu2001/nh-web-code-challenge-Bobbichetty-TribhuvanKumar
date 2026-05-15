@@ -22,3 +22,9 @@ Choose the clinician with the smallest totalDistance
 Finally, it returns:
     clinicianName
     totalDistance rounded to one decimal
+
+Components => Theme.tsx, Patient Componeny, Result Component
+Utils => GMAP
+Styles => Theme.module.css, 
+services/api => Geo Location API, Clicians API, Labs API
+
